@@ -3,6 +3,7 @@ require recipes-extended/images/container-app-base.bb
 CONTAINER_APP = " \
 	packagegroup-core-base-utils \
 	dfx-mgr-client \
+        aie-matrix-multiplication \
 	vek280-pl-aie-gmio-fw \
         "
 
