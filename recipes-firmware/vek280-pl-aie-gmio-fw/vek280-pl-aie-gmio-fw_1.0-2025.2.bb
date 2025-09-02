@@ -5,9 +5,9 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit dfx_user_dts
 
-SRC_URI = "https://artifactory.xilinx.com/artifactory/petalinux-hwproj-dev/sdt/2025.2/2025.2_0602_1_06030318/external/vek280-pl-aie-gmio-fw/vek280-pl-aie-gmio-fw_2025.2_0602_1.tar.gz"
+SRC_URI = "https://petalinux.xilinx.com/sswreleases/rel-v2025.2/sdt/2025.2/2025.2_0818_1_08190357/external/vek280-pl-aie-gmio-fw/vek280-pl-aie-gmio-fw_2025.2_0818_1_08190357.tar.gz"
 
-SRC_URI[sha256sum] = "4d2def344a6ffbcf0ee23a43203548646b8832f9c4634992704257031e2ca338"
+SRC_URI[sha256sum] = "d4cbef0f57d5180df8e4292aceaa193666c04cae9828c863179c41560fbf42c5"
 
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 COMPATIBLE_MACHINE:versal-vek280-sdt-seg = "${MACHINE}"
