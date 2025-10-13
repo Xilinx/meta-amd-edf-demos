@@ -2,6 +2,7 @@
 # Copyright (C) 2024, Advanced Micro Devices, Inc.
 # SPDX-License-Identifier: Apache-2.0
  ******************************************************************************/
+#include <iostream>
 #include <unistd.h>
 #include <fstream>
 #include <cstring>
