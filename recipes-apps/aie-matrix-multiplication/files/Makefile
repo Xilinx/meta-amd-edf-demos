@@ -1,7 +1,7 @@
 APP= aie-matrix-multiplication
 
 APPOBJS 	= $(APP).o
-LDFLAGS 	+= -D__AIE_ARCH__=$(__AIE_ARCH__)
+CXXFLAGS 	+= -D__AIE_ARCH__=$(__AIE_ARCH__) -D__BOARD__=$(__BOARD__)
 LDLIBS          := -lgcc -lc -lxrt_coreutil -lpthread -lrt -ldl -lcrypt -lstdc++
 
 all: $(APP)

@@ -11,7 +11,7 @@ inherit autotools
 S = "${WORKDIR}"
 B = "${S}"
 
-EXTRA_OEMAKE += "__AIE_ARCH__=20"
+EXTRA_OEMAKE += "__AIE_ARCH__=20 __BOARD__=280"
 CXXFLAGS += "-I${STAGING_DIR_TARGET}/usr/include/xrt"
 
 DEPENDS += "xrt xgemm"
