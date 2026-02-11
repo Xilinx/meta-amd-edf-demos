@@ -5,9 +5,9 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit dfx_user_dts
 
-SRC_URI = "https://artifactory.xilinx.com/artifactory/petalinux-hwproj-dev/edf_files/2026.1/12110000/external/fwapp/vrk160-pl-aie-gmio-fw_2026.1_1210_1_12110000.tar.gz"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.1/edf_files/2026.1/02110449/external/fwapp/vrk160-pl-aie-gmio-fw_2026.1_0210_1_02110449.tar.gz"
 
-SRC_URI[sha256sum] = "e8d2bd891540b199f6d7c436466361d5891ff8ad7ef6bbf30c02c7652f040dca"
+SRC_URI[sha256sum] = "c0cf7e439db10455e49d30cc50285af3ea68a384b31e02cc5f1d62ca4e9b1a30"
 
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 COMPATIBLE_MACHINE:versal-vrk160-sdt-seg = "${MACHINE}"
