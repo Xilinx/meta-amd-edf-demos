@@ -7,7 +7,7 @@ inherit dfx_user_dts
 
 SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.1/edf_files/2026.1/05310527/external/fwapp/vek280-pl-aie-gmio-fw_2026.1_0531_1_05310527.tar.gz"
 
-SRC_URI[sha256sum] = "01aafde8efd84e1898d9123bce2350a3c98e77ef0cef5700aa9106f1b04419ba"
+SRC_URI[sha256sum] = "5180659d5236ee5f4509f54b81d7583e5268d55596e49b461363728e8fc664f4"
 
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 COMPATIBLE_MACHINE:versal-vek280-sdt-seg = "${MACHINE}"

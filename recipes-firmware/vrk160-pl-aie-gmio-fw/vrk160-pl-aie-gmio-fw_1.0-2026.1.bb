@@ -7,7 +7,7 @@ inherit dfx_user_dts
 
 SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.1/edf_files/2026.1/05310527/external/fwapp/vrk160-pl-aie-gmio-fw_2026.1_0531_1_05310527.tar.gz"
 
-SRC_URI[sha256sum] = "377ab295a0040639fd9eb4e03221cae6063df6729a91747555d53f1c167e3520"
+SRC_URI[sha256sum] = "b50535073b5ef8e522c029f15a76d55f5ff0826ec4aed7b491fd14119bcb05dd"
 
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 COMPATIBLE_MACHINE:versal-vrk160-sdt-seg = "${MACHINE}"

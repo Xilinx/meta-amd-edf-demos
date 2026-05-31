@@ -7,7 +7,7 @@ inherit dfx_user_dts
 
 SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.1/edf_files/2026.1/05310527/external/fwapp/vck190-pl-aie-gmio-fw_2026.1_0531_1_05310527.tar.gz"
 
-SRC_URI[sha256sum] = "90bbd3f8b4d9569e3b9bf5771ca4484f90f59199a6afcd362854d5309a5331a3"
+SRC_URI[sha256sum] = "edcb930ea59deb53c64ca8274d38285c129b39d648f11d5d9564de94c4b07f64"
 
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 COMPATIBLE_MACHINE:versal-vck190-sdt-seg = "${MACHINE}"
