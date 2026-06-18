@@ -11,8 +11,6 @@ BRANCHARG = "${@['nobranch=1', 'branch=${BRANCH}'][d.getVar('BRANCH', True) != '
 SRC_URI = "${REPO};${BRANCHARG}"
 SRCREV ??= "f6f3876b0cf070dd528b4c7acfd0a7727f92d8be"
 
-S = "${WORKDIR}/git"
-
 do_configure[noexec] = "1"
 do_compile[noexec] = "1"
 

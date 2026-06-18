@@ -8,7 +8,7 @@ SRC_URI = "file://aie-matrix-multiplication.cpp \
 		  "
 inherit autotools
 
-S = "${WORKDIR}"
+S = "${UNPACKDIR}"
 B = "${S}"
 
 EXTRA_OEMAKE += "__AIE_ARCH__=20 __BOARD__=280"
