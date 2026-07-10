@@ -9,7 +9,7 @@ CONTAINER_APP = " \
 	util-linux-mount \
 	"
 
-CONTAINER_APP_CMD = "sh -c 'echo -n /lib/firmware/xilinx/vmk180-base-noc-perf > /sys/module/firmware_class/parameters/path 2>/dev/null; exec bash'"
+CONTAINER_APP_CMD = ""
 
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 
