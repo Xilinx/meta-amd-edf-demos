@@ -9,8 +9,8 @@ inherit devicetree
 # it provide virtual/dtb (which would clash with the machine's preferred dtb).
 PROVIDES:remove = "virtual/dtb"
 
-SRC_URI = "https://artifactory.xilinx.com/artifactory/petalinux-hwproj-dev/sdt/2026.2/2026.2_0702_1_07022126/external/versal-vmk180-sdt-seg/versal-vmk180-sdt-seg_overlay_noc_2026.2_0702_1_07022126.tar.gz;striplevel=1"
-SRC_URI[sha256sum] = "bb6a83fa1198373009d3eedfa34356c953d7a61499c05e2b915f76b913cb68e7"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_0715_1_07150559/external/versal-vmk180-sdt-seg/versal-vmk180-sdt-seg_overlay_noc_2026.2_0715_1_07150559.tar.gz"
+SRC_URI[sha256sum] = "e19fd107a7255c796a9fd65b8bc43d955c8bb72fe772d04e486af3488d3a8d9b"
 
 S = "${UNPACKDIR}"
 
