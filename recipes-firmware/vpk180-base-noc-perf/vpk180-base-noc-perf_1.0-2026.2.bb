@@ -9,8 +9,8 @@ inherit devicetree
 # it provide virtual/dtb (which would clash with the machine's preferred dtb).
 PROVIDES:remove = "virtual/dtb"
 
-SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_0715_1_07150559/external/versal-vpk180-sdt-seg/versal-vpk180-sdt-seg_overlay_noc_2026.2_0715_1_07150559.tar.gz"
-SRC_URI[sha256sum] = "cf57c03bcf185b4f4655d6b50492d13672630b1152d6d76dea8adc3497e14e94"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_0716_1_07160732/external/versal-vpk180-sdt-seg/versal-vpk180-sdt-seg_overlay_noc_2026.2_0716_1_07160732.tar.gz"
+SRC_URI[sha256sum] = "6a78315d7cbabb49af72be21e20da1b4b43b32e651571484717b4ef1e50d8c7d"
 
 S = "${UNPACKDIR}"
 
