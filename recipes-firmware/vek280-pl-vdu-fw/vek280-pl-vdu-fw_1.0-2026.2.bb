@@ -9,6 +9,7 @@ SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.1/edf_files/2026.1/06052009
 
 SRC_URI[sha256sum] = "8d777beee508f140ac087f4ec8121ea0b8224c6499d52e7941035de160dde539"
 
+COMPATIBLE_MACHINE = "^$"
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
 COMPATIBLE_MACHINE:versal-vek280-sdt-seg = "${MACHINE}"
 
