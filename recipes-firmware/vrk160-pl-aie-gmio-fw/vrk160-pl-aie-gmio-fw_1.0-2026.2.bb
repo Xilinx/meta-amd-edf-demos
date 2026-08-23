@@ -5,9 +5,9 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit dfx_user_dts
 
-SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/edf_files/2026.2/08230526/external/fwapp/vrk160-pl-aie-gmio-fw_2026.2_0820_1_08230526.tar.gz"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/edf_files/2026.2/08230755/external/fwapp/vrk160-pl-aie-gmio-fw_2026.2_0823_1_08230755.tar.gz"
 
-SRC_URI[sha256sum] = "b1a5299707a33772a7b2630cde22b2c3685f64fe2d2bd7c021b652090f4574e3"
+SRC_URI[sha256sum] = "f9c60a0709a57a566e9de86404c7638825a829b400c084ca08df9e1e92387008"
 
 COMPATIBLE_MACHINE = "^$"
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
