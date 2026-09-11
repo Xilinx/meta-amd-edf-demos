@@ -14,7 +14,7 @@ inherit features_check
 REQUIRED_MACHINE_FEATURES = "vdu"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
-RDEPENDS:${PN} = "packagegroup-xilinx-jupyter packagegroup-xilinx-gstreamer gstreamer-vdu-examples start-jupyter"
+RDEPENDS:${PN} = "packagegroup-xilinx-jupyter gstreamer-vdu-examples gstreamer1.0-python"
 
 EXTRA_OEMAKE = 'D=${D} JUPYTER_DIR=${JUPYTER_DIR}'
 
