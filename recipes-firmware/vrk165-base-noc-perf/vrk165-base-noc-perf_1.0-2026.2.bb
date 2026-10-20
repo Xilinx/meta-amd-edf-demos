@@ -5,7 +5,7 @@ require recipes-firmware/base-noc-perf.inc
 
 NOC_OVERLAY_DIR = "versal-vrk165-sdt-seg_overlay_noc"
 
-SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_1019_1_10190543/external/versal-vrk165-sdt-seg/versal-vrk165-sdt-seg_overlay_noc_2026.2_1019_1_10190543.tar.gz"
-SRC_URI[sha256sum] = "a88bb3a994b638853aef64c69323ee919a85ea8a91a9aa8c5423d85a2ad9eb1a"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_1020_1_10200613/external/versal-vrk165-sdt-seg/versal-vrk165-sdt-seg_overlay_noc_2026.2_1020_1_10200613.tar.gz"
+SRC_URI[sha256sum] = "352ba4e3cea14c1642d39aaadf5daec9d236b4b7a0af554cbe28f0460359c086"
 
 COMPATIBLE_MACHINE:versal-vrk165-sdt-seg = "${MACHINE}"
