@@ -5,9 +5,9 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit dfx_user_dts
 
-SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/edf_files/2026.2/10270632/external/fwapp/vek280-pl-vdu-fw_2026.2_1027_1_10270632.tar.gz"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/edf_files/2026.2/10280834/external/fwapp/vek280-pl-vdu-fw_2026.2_1028_1_10280834.tar.gz"
 
-SRC_URI[sha256sum] = "aa3d35cae2910d06120ba8ae71f1141dc2aba394b0bb5724b09d1a353e1abbd4"
+SRC_URI[sha256sum] = "90a8e69b32f8c04349251eca6e86d137bb3b3532b42044ea80afa75c08a4eb85"
 
 COMPATIBLE_MACHINE = "^$"
 COMPATIBLE_MACHINE:amd-cortexa72-common = "${MACHINE}"
