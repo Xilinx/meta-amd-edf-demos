@@ -5,7 +5,7 @@ require recipes-firmware/base-noc-perf.inc
 
 NOC_OVERLAY_DIR = "versal-vek280-sdt-seg_overlay_noc"
 
-SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_1030_1_10300625/external/versal-vek280-sdt-seg/versal-vek280-sdt-seg_overlay_noc_2026.2_1030_1_10300625.tar.gz"
-SRC_URI[sha256sum] = "3e59157223f35d06d8dfbcf321c73e60685f8a06d14d9b25f15256383303e80a"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_1031_1_10310614/external/versal-vek280-sdt-seg/versal-vek280-sdt-seg_overlay_noc_2026.2_1031_1_10310614.tar.gz"
+SRC_URI[sha256sum] = "7fc802793d1228a4c2187165df0e4a5c950b1c5237366c777aa13d590d6e07a1"
 
 COMPATIBLE_MACHINE:versal-vek280-sdt-seg = "${MACHINE}"
