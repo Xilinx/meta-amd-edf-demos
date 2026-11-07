@@ -5,7 +5,7 @@ require recipes-firmware/base-noc-perf.inc
 
 NOC_OVERLAY_DIR = "versal-vpk120-sdt-seg_overlay_noc"
 
-SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_1106_1_11060111/external/versal-vpk120-sdt-seg/versal-vpk120-sdt-seg_overlay_noc_2026.2_1106_1_11060111.tar.gz"
-SRC_URI[sha256sum] = "05ff24b759f812f0a3c9323a609e8d8af0e925bf5c2b6c6af9d260cdbd5d57e2"
+SRC_URI = "https://edf.amd.com/sswreleases/rel-v2026.2/sdt/2026.2/2026.2_1107_1_11071152/external/versal-vpk120-sdt-seg/versal-vpk120-sdt-seg_overlay_noc_2026.2_1107_1_11071152.tar.gz"
+SRC_URI[sha256sum] = "b8370b1370a4cf5dcabf25c018c5f49a6d4543c0537362f8e9f311852d6d3eaf"
 
 COMPATIBLE_MACHINE:versal-vpk120-sdt-seg = "${MACHINE}"
